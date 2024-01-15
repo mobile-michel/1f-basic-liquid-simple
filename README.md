@@ -1,5 +1,4 @@
 # Basic template with Eleventy, Liquid & Simple CSS framework
-[01-basic-liquid-simple](https://github.com/mobile-michel/01-basic-liquid-simple)
 
 ## Folder structure
 - pages in /src
