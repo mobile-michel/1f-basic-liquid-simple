@@ -41,6 +41,6 @@ module.exports = function (eleventyConfig) {
 ```
 
 ## Links to docs
-[Eleventy](https://www.11ty.dev/docs/)
-[LiquidJS](https://liquidjs.com/tutorials/intro-to-liquid.html)
-[Simple.css](https://simplecss.org/)
+- [Eleventy](https://www.11ty.dev/docs/)
+- [LiquidJS](https://liquidjs.com/tutorials/intro-to-liquid.html)
+- [Simple.css](https://simplecss.org/)
