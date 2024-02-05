@@ -1,0 +1,15 @@
+---
+layout: base
+---
+{% include 'header' %}
+<main>
+  {% if fileslug %}
+  {% include 'aside' %}
+  {% endif %}
+  <h1>{{ title | capitalize }}</h1>
+  {{ content }}
+  {% if fileslug %}
+  {% include 'pagination' %}
+  {% endif %}
+</main>
+{% include 'footer' %}

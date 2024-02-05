@@ -1,0 +1,27 @@
+<p>
+    {% for item in collections.secondary %}
+    {% if item.data.fileslug == fileslug %}
+    | <a href="{{item.url}}" {% if page.url==item.url %}aria-current="page" {% endif %}>{{item.data.title}}</a>
+    {% endif %}
+    {% endfor %}
+</p>
+
+<p>
+    {% for item in collections.secondary %}
+    {% if item.data.fileslug == fileslug %}
+    {% if page.url==item.url %}
+    This is page "{{item.data.title}}".
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</p>
+
+
+
+<p>
+    {% for items in collections.secondary %}
+    {{ items.data.title }}
+    {% assign i = items | where: "items.data.title", "Exposure" %}
+    {{ i.data.title }}
+    {% endfor %}
+</p>
